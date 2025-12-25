@@ -1,0 +1,47 @@
+{
+    "common": {
+        "brandName": "CAG Macro Lab",
+        "productName": "Macro Pulse 30 Ultimate",
+        "getAccess": "Obtener Acceso",
+        "perMonth": "/mes",
+        "since": "Desde 2026"
+    },
+    "nav": {
+        "instruments": "Instrumentos",
+        "philosophy": "Filosofía"
+    },
+    "hero": {
+        "tagline": "Precisión Cuantitativa",
+        "subtitle": "Instrumentos cuantitativos profesionales para traders exigentes. Monitorea 30 pulsos del mercado en tiempo real con precisión de grado institucional.",
+        "cta": "Explorar Nuestros Instrumentos",
+        "scroll": "Desplazar"
+    },
+    "products": {
+        "sectionLabel": "Nuestros Instrumentos",
+        "sectionTitle": "Herramientas de Precisión",
+        "flagship": "Insignia",
+        "tagline": "Panel Cuantitativo Profesional",
+        "description": "Una herramienta integral de reconocimiento ambiental que escanea 30 activos críticos y drivers macro en tiempo real para cuantificar el sesgo del mercado con precisión estadística.",
+        "feature1": "Detección de Régimen de Mercado en Tiempo Real",
+        "feature2": "Normalización Estadística Z-Score",
+        "feature3": "Pesos de Correlación Adaptativos",
+        "feature4": "Detección de Squeeze de Volatilidad",
+        "dataSources": "Fuentes de Datos",
+        "comingSoon": "Más instrumentos en desarrollo..."
+    },
+    "philosophy": {
+        "sectionLabel": "Filosofía",
+        "sectionTitle": "Nuestros Principios",
+        "principle1Title": "Precisión",
+        "principle1Desc": "Cada cálculo tiene fundamento estadístico. Medimos en desviaciones estándar, no en conjeturas.",
+        "principle2Title": "Adaptación",
+        "principle2Desc": "Los mercados evolucionan. Nuestros algoritmos ajustan sus pesos dinámicamente según las correlaciones cambiantes.",
+        "principle3Title": "Claridad",
+        "principle3Desc": "Datos complejos, señales simples. Destilamos 30 fuentes en detección accionable de régimen de mercado.",
+        "quote": "La brújula no crea la dirección — la revela."
+    },
+    "footer": {
+        "copyright": "© {year} CAG Macro Lab. Todos los derechos reservados.",
+        "disclaimer": "Esta herramienta es solo para fines informativos y no constituye asesoramiento financiero. El trading implica un riesgo sustancial de pérdida."
+    }
+}

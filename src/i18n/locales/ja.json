@@ -1,0 +1,47 @@
+{
+    "common": {
+        "brandName": "CAG Macro Lab",
+        "productName": "Macro Pulse 30 Ultimate",
+        "getAccess": "アクセスを取得",
+        "perMonth": "/月",
+        "since": "2026年創業"
+    },
+    "nav": {
+        "instruments": "ツール",
+        "philosophy": "哲学"
+    },
+    "hero": {
+        "tagline": "定量的精密さ",
+        "subtitle": "目の肥えたトレーダーのためのプロフェッショナル・クオンツ・ツール。30の市場脈拍をリアルタイムで追跡し、機関投資家レベルの精度を実現。",
+        "cta": "ツールを見る",
+        "scroll": "スクロール"
+    },
+    "products": {
+        "sectionLabel": "ツール",
+        "sectionTitle": "精密機器",
+        "flagship": "主力製品",
+        "tagline": "プロフェッショナル・クオンツ・ダッシュボード",
+        "description": "30の重要な資産とマクロドライバーをリアルタイムでスキャンし、市場のバイアスを統計的精度で定量化する包括的な環境認識ツール。",
+        "feature1": "リアルタイム市場レジーム検出",
+        "feature2": "Zスコア統計的正規化",
+        "feature3": "相関ベースの動的ウェイト",
+        "feature4": "ボラティリティ・スクイーズ検出",
+        "dataSources": "データソース",
+        "comingSoon": "さらなるツールを開発中..."
+    },
+    "philosophy": {
+        "sectionLabel": "哲学",
+        "sectionTitle": "私たちの原則",
+        "principle1Title": "精密さ",
+        "principle1Desc": "すべての計算は統計的根拠に基づきます。推測ではなく、標準偏差で測定します。",
+        "principle2Title": "適応性",
+        "principle2Desc": "市場は進化します。私たちのアルゴリズムは、変化する相関関係に基づいて動的にウェイトを調整します。",
+        "principle3Title": "明瞭さ",
+        "principle3Desc": "複雑なデータ、シンプルなシグナル。30のソースを実用的な市場レジーム検出に集約します。",
+        "quote": "コンパスは方向を創り出すのではない — それを明らかにするのだ。"
+    },
+    "footer": {
+        "copyright": "© {year} CAG Macro Lab. All rights reserved.",
+        "disclaimer": "本ツールは情報提供のみを目的としており、金融アドバイスを構成するものではありません。取引には重大な損失リスクが伴います。"
+    }
+}

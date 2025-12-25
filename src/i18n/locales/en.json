@@ -1,0 +1,47 @@
+{
+  "common": {
+    "brandName": "CAG Macro Lab",
+    "productName": "Macro Pulse 30 Ultimate",
+    "getAccess": "Get Access",
+    "perMonth": "/month",
+    "since": "Since 2026"
+  },
+  "nav": {
+    "instruments": "Instruments",
+    "philosophy": "Philosophy"
+  },
+  "hero": {
+    "tagline": "Quantitative Precision",
+    "subtitle": "Professional quant instruments for discerning traders. Track 30 market pulses in real-time with institutional-grade precision.",
+    "cta": "Explore Our Instruments",
+    "scroll": "Scroll"
+  },
+  "products": {
+    "sectionLabel": "Our Instruments",
+    "sectionTitle": "Precision Tools",
+    "flagship": "Flagship",
+    "tagline": "Professional Quant Dashboard",
+    "description": "A comprehensive environment recognition tool that scans 30 critical assets and macro drivers in real-time to quantify market bias with statistical precision.",
+    "feature1": "Real-time Market Regime Detection",
+    "feature2": "Z-Score Statistical Normalization",
+    "feature3": "Adaptive Correlation Weights",
+    "feature4": "Volatility Squeeze Detection",
+    "dataSources": "Data Sources",
+    "comingSoon": "More instruments are being crafted..."
+  },
+  "philosophy": {
+    "sectionLabel": "Philosophy",
+    "sectionTitle": "Our Principles",
+    "principle1Title": "Precision",
+    "principle1Desc": "Every calculation is statistically grounded. We measure in standard deviations, not guesswork.",
+    "principle2Title": "Adaptation",
+    "principle2Desc": "Markets evolve. Our algorithms adjust their weights dynamically based on changing correlations.",
+    "principle3Title": "Clarity",
+    "principle3Desc": "Complex data, simple signals. We distill 30 sources into actionable market regime detection.",
+    "quote": "The compass does not create the direction — it reveals it."
+  },
+  "footer": {
+    "copyright": "© {year} CAG Macro Lab. All rights reserved.",
+    "disclaimer": "This tool is for informational purposes only and does not constitute financial advice. Trading involves substantial risk of loss."
+  }
+}
