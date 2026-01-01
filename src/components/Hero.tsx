@@ -176,8 +176,8 @@ export default function Hero() {
                 </div>
 
                 {/* CTA */}
-                <div className="fade-up" style={{ animationDelay: '1.2s' }}>
-                    <a href="#products" className="btn-elegant">
+                <div className="fade-up mb-20 md:mb-16" style={{ animationDelay: '1.2s' }}>
+                    <a href="#products" className="btn-elegant whitespace-nowrap">
                         {t.hero.cta}
                     </a>
                 </div>
@@ -187,10 +187,10 @@ export default function Hero() {
             <div className="absolute bottom-0 left-0 right-0 line-horizontal" />
 
             {/* Scroll indicator */}
-            <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 fade-up" style={{ animationDelay: '1.5s' }}>
+            <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 fade-up" style={{ animationDelay: '1.5s' }}>
                 <div className="flex flex-col items-center gap-2">
                     <span className="text-xs uppercase tracking-[0.2em] text-[var(--foreground-muted)]">{t.hero.scroll}</span>
-                    <div className="w-px h-8 bg-gradient-to-b from-[var(--gold-600)] to-transparent" />
+                    <div className="w-px h-6 md:h-8 bg-gradient-to-b from-[var(--gold-600)] to-transparent" />
                 </div>
             </div>
         </section>

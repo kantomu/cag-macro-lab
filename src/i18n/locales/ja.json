@@ -27,7 +27,31 @@
         "feature3": "相関ベースの動的ウェイト",
         "feature4": "ボラティリティ・スクイーズ検出",
         "dataSources": "データソース",
-        "comingSoon": "さらなるツールを開発中..."
+        "comingSoon": "さらなるツールを開発中...",
+        "additionalTools": "追加ツール",
+        "additionalToolsSubtitle": "包括的な市場分析のためのコンパニオン・インジケーター",
+        "indicator1": {
+            "name": "3of3 Alert",
+            "type": "シグナル・インジケーター",
+            "access": "招待専用",
+            "description": "多層フィルタリングシステムを使用して「Wave 3 of Wave 3」セットアップの高確率エントリーポイントを特定。トレンドの最も強力なモメンタムフェーズを捉えるために設計されています。",
+            "feature1": "RCIベースのオシレーターシグナル",
+            "feature2": "多層確認フィルター",
+            "feature3": "高品質エントリー検出",
+            "feature4": "トレンドモメンタム分析"
+        },
+        "indicator2": {
+            "name": "All-3of3",
+            "type": "環境分析ツール",
+            "access": "無料",
+            "description": "エリオット波動理論における「Wave 3 of Wave 3」機会を分析するためのウェーブトレンド環境アナライザー。トレンド反転と継続における最も強力なインパルス波を捉えます。",
+            "feature1": "ダイナミックSMA/EMAバンドシステム",
+            "feature2": "トレンド強度の可視化",
+            "feature3": "自動グラデーション着色",
+            "feature4": "反転検出シグナル"
+        },
+        "viewOnTradingView": "TradingViewで見る",
+        "requestAccess": "アクセスを申請"
     },
     "philosophy": {
         "sectionLabel": "哲学",

@@ -27,7 +27,31 @@
     "feature3": "Adaptive Correlation Weights",
     "feature4": "Volatility Squeeze Detection",
     "dataSources": "Data Sources",
-    "comingSoon": "More instruments are being crafted..."
+    "comingSoon": "More instruments are being crafted...",
+    "additionalTools": "Additional Tools",
+    "additionalToolsSubtitle": "Companion indicators for comprehensive market analysis",
+    "indicator1": {
+      "name": "3of3 Alert",
+      "type": "Signal Indicator",
+      "access": "Invite-Only",
+      "description": "Identifies high-probability entry points for \"Wave 3 of Wave 3\" setups using a multi-layered filtering system. Designed to catch the most powerful momentum phases in trend movements.",
+      "feature1": "RCI-based oscillator signals",
+      "feature2": "Multi-layer confirmation filters",
+      "feature3": "High-quality entry detection",
+      "feature4": "Trend momentum analysis"
+    },
+    "indicator2": {
+      "name": "All-3of3",
+      "type": "Environment Analyzer",
+      "access": "Free",
+      "description": "Wave Trend Environment Analyzer designed for analyzing \"Wave 3 of Wave 3\" opportunities in Elliott Wave theory - the most powerful impulse waves in trend reversals and continuations.",
+      "feature1": "Dynamic SMA/EMA Band System",
+      "feature2": "Trend strength visualization",
+      "feature3": "Automatic gradient coloring",
+      "feature4": "Reversal detection signals"
+    },
+    "viewOnTradingView": "View on TradingView",
+    "requestAccess": "Request Access"
   },
   "philosophy": {
     "sectionLabel": "Philosophy",

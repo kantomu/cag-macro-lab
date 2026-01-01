@@ -14,8 +14,14 @@ export default function Products() {
         t.products.feature4,
     ];
 
-    // Direct URL - Whop checkout
-    const checkoutUrl = "https://whop.com/cag-macro-lab/macro-pulse-30-ultimate/";
+    // Checkout URLs
+    const macroCheckoutUrl = "https://whop.com/checkout/plan_xDHdyMOUkLRfQ";
+    const alertCheckoutUrl = "https://whop.com/checkout/plan_AXx5BHmEbdLCr";
+
+    // TradingView URLs
+    const macroTradingViewUrl = "https://jp.tradingview.com/script/mYzp5lsq/";
+    const alertTradingViewUrl = "https://jp.tradingview.com/script/sKSBwH3S/";
+    const all3of3TradingViewUrl = "https://jp.tradingview.com/script/FyU5ZrKb/";
 
     return (
         <section id="products" className="section-padding relative">
@@ -36,8 +42,8 @@ export default function Products() {
                     </div>
                 </div>
 
-                {/* Product Card */}
-                <div className="card-premium p-8 md:p-12 mb-12 relative overflow-hidden">
+                {/* Macro Pulse 30 - FLAGSHIP AT TOP */}
+                <div className="card-premium p-8 md:p-12 mb-16 relative overflow-hidden">
                     {/* Shimmer effect */}
                     <div className="shimmer-overlay" />
 
@@ -124,15 +130,159 @@ export default function Products() {
                                         {t.common.perMonth}
                                     </div>
                                 </div>
-                                <a
-                                    href={checkoutUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="btn-premium group"
-                                >
-                                    <span className="btn-text">{t.common.getAccess}</span>
-                                    <span className="btn-arrow">→</span>
-                                </a>
+                                <div className="flex flex-wrap items-center gap-4">
+                                    <a
+                                        href={macroCheckoutUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="btn-premium group"
+                                    >
+                                        <span className="btn-text">{t.common.getAccess}</span>
+                                        <span className="btn-arrow">→</span>
+                                    </a>
+                                    <a
+                                        href={macroTradingViewUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 text-sm text-[var(--foreground-muted)] hover:text-[var(--gold-400)] transition-colors group/link"
+                                    >
+                                        <span>{t.products.viewOnTradingView}</span>
+                                        <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Additional Tools Section */}
+                <div className="mb-12">
+                    <div className="text-center mb-12">
+                        <h3 className={`text-2xl md:text-3xl text-gold-gradient mb-3 ${serifClass}`}>
+                            {t.products.additionalTools}
+                        </h3>
+                        <p className="text-sm text-[var(--foreground-muted)]">
+                            {t.products.additionalToolsSubtitle}
+                        </p>
+                        <div className="divider max-w-xs mx-auto mt-4">
+                            <span className="ornament-star">✦</span>
+                        </div>
+                    </div>
+
+                    {/* Indicator Cards Grid */}
+                    <div className="grid md:grid-cols-2 gap-8">
+                        {/* 3of3 Alert Card */}
+                        <div className="card-premium p-6 md:p-8 relative overflow-hidden group hover:border-[var(--gold-500)]/50 transition-all duration-300">
+                            <div className="shimmer-overlay opacity-50" />
+                            <div className="corner-ornament corner-tl" />
+                            <div className="corner-ornament corner-br" />
+
+                            <div className="relative z-10">
+                                <div className="flex items-center gap-3 mb-4">
+                                    <span className="badge-flagship text-xs">
+                                        {t.products.indicator1.type}
+                                    </span>
+                                    <span className="px-2 py-0.5 text-xs rounded-full bg-[var(--gold-600)]/20 text-[var(--gold-400)] border border-[var(--gold-600)]/30">
+                                        {t.products.indicator1.access}
+                                    </span>
+                                </div>
+
+                                <h4 className={`text-xl md:text-2xl mb-3 ${serifClass}`}>
+                                    {t.products.indicator1.name}
+                                </h4>
+
+                                <p className="text-sm text-[var(--foreground-muted)] leading-relaxed mb-6">
+                                    {t.products.indicator1.description}
+                                </p>
+
+                                <div className="grid grid-cols-2 gap-2 mb-6">
+                                    {[
+                                        t.products.indicator1.feature1,
+                                        t.products.indicator1.feature2,
+                                        t.products.indicator1.feature3,
+                                        t.products.indicator1.feature4
+                                    ].map((feature, idx) => (
+                                        <div key={idx} className="flex items-start gap-2">
+                                            <span className="text-[var(--gold-400)] text-[10px] mt-1">✦</span>
+                                            <span className="text-xs text-[var(--foreground-muted)]">{feature}</span>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                {/* Links - Payment + TradingView */}
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 pt-4 border-t border-[var(--border)]">
+                                    <a
+                                        href={alertCheckoutUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-[var(--gold-600)]/20 text-[var(--gold-400)] border border-[var(--gold-600)]/40 rounded hover:bg-[var(--gold-600)]/30 transition-colors group/link"
+                                    >
+                                        <span>{t.common.getAccess}</span>
+                                        <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                                    </a>
+                                    <a
+                                        href={alertTradingViewUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 text-sm text-[var(--foreground-muted)] hover:text-[var(--gold-400)] transition-colors group/link"
+                                    >
+                                        <span>TradingView</span>
+                                        <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* All-3of3 Card - FREE */}
+                        <div className="card-premium p-6 md:p-8 relative overflow-hidden group hover:border-[var(--gold-500)]/50 transition-all duration-300">
+                            <div className="shimmer-overlay opacity-50" />
+                            <div className="corner-ornament corner-tl" />
+                            <div className="corner-ornament corner-br" />
+
+                            <div className="relative z-10">
+                                <div className="flex items-center gap-3 mb-4">
+                                    <span className="badge-flagship text-xs">
+                                        {t.products.indicator2.type}
+                                    </span>
+                                    <span className="px-2 py-0.5 text-xs rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                                        {t.products.indicator2.access}
+                                    </span>
+                                </div>
+
+                                <h4 className={`text-xl md:text-2xl mb-3 ${serifClass}`}>
+                                    {t.products.indicator2.name}
+                                </h4>
+
+                                <p className="text-sm text-[var(--foreground-muted)] leading-relaxed mb-6">
+                                    {t.products.indicator2.description}
+                                </p>
+
+                                <div className="grid grid-cols-2 gap-2 mb-6">
+                                    {[
+                                        t.products.indicator2.feature1,
+                                        t.products.indicator2.feature2,
+                                        t.products.indicator2.feature3,
+                                        t.products.indicator2.feature4
+                                    ].map((feature, idx) => (
+                                        <div key={idx} className="flex items-start gap-2">
+                                            <span className="text-[var(--gold-400)] text-[10px] mt-1">✦</span>
+                                            <span className="text-xs text-[var(--foreground-muted)]">{feature}</span>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                {/* Link - TradingView only (FREE) */}
+                                <div className="flex items-center gap-4 pt-4 border-t border-[var(--border)]">
+                                    <a
+                                        href={all3of3TradingViewUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 rounded hover:bg-emerald-500/30 transition-colors group/link"
+                                    >
+                                        <span>TradingView</span>
+                                        <span className="group-hover/link:translate-x-1 transition-transform">→</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
     "hero": {
         "tagline": "Precisión Cuantitativa",
         "subtitle": "Instrumentos cuantitativos profesionales para traders exigentes. Monitorea 30 pulsos del mercado en tiempo real con precisión de grado institucional.",
-        "cta": "Explorar Nuestros Instrumentos",
+        "cta": "Ver Instrumentos",
         "scroll": "Desplazar"
     },
     "products": {
@@ -27,7 +27,31 @@
         "feature3": "Pesos de Correlación Adaptativos",
         "feature4": "Detección de Squeeze de Volatilidad",
         "dataSources": "Fuentes de Datos",
-        "comingSoon": "Más instrumentos en desarrollo..."
+        "comingSoon": "Más instrumentos en desarrollo...",
+        "additionalTools": "Herramientas Adicionales",
+        "additionalToolsSubtitle": "Indicadores complementarios para análisis integral del mercado",
+        "indicator1": {
+            "name": "3of3 Alert",
+            "type": "Indicador de Señal",
+            "access": "Solo por Invitación",
+            "description": "Identifica puntos de entrada de alta probabilidad para configuraciones \"Wave 3 of Wave 3\" utilizando un sistema de filtrado multicapa. Diseñado para capturar las fases de impulso más potentes en los movimientos de tendencia.",
+            "feature1": "Señales de oscilador basadas en RCI",
+            "feature2": "Filtros de confirmación multicapa",
+            "feature3": "Detección de entradas de alta calidad",
+            "feature4": "Análisis de impulso de tendencia"
+        },
+        "indicator2": {
+            "name": "All-3of3",
+            "type": "Analizador de Entorno",
+            "access": "Gratis",
+            "description": "Analizador de Entorno de Tendencia Wave diseñado para analizar oportunidades \"Wave 3 of Wave 3\" en la teoría de Ondas de Elliott - las ondas de impulso más potentes en reversiones y continuaciones de tendencias.",
+            "feature1": "Sistema dinámico de Bandas SMA/EMA",
+            "feature2": "Visualización de fuerza de tendencia",
+            "feature3": "Coloración de gradiente automática",
+            "feature4": "Señales de detección de reversión"
+        },
+        "viewOnTradingView": "Ver en TradingView",
+        "requestAccess": "Solicitar Acceso"
     },
     "philosophy": {
         "sectionLabel": "Filosofía",
